@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+background-color: #006A4E;
+/* todo color #4FFFB0 */
+}
+
+.header{
+margin-bottom: 10%;
+}
+
+@media (max-width: 700px) {
+.header{
+    margin-bottom: 20%;
+}
+}

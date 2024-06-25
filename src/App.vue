@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import Header from './components/header.vue';
+import Header from '@/components/Header.vue';
 
 export default{
   components:{
@@ -14,11 +14,5 @@ export default{
 </script>
 
 <style>
-body{
-  background-color: #006A4E;
-  /* todo color #4FFFB0 */
-}
-.header{
-  margin-bottom: 10%;
-}
+
 </style>
