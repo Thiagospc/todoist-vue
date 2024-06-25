@@ -14,10 +14,10 @@
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link" href="#">ToDoIst</a>
+                            <a class="nav-link"><router-link to="/">TodoIst</router-link></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Sobre</a>
+                            <a class="nav-link"><router-link to="/sobre">Sobre</router-link></a>
                         </li>
                     </ul>
                 </div>
